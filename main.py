@@ -12,3 +12,5 @@ pd.DataFrame(r['resultSet']['rowSet'], columns=table_headers)
 
 print(r)
 temp_df1 = pd.DataFrame(r['resultSet']['rowSet'], columns=table_headers)
+
+is this the same as juypter
