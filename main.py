@@ -8,7 +8,9 @@ test_url = 'https://stats.nba.com/stats/leagueLeaders?LeagueID=00&PerMode=PerGam
 
 r = requests.get(url=test_url).json()
 table_headers = r['resultSet']['headers']
-pd.DataFrame(r['resultSet']['rowSet'], columns=table_headers)
+# pd.DataFrame(r['resultSet']['rowSet'], columns=table_headers)
 
-print(r)
-temp_df1 = pd.DataFrame(r['resultSet']['rowSet'], columns=table_headers)
+
+# print(r)
+print(table_headers)
+# temp_df1 = pd.DataFrame(r['resultSet']['rowSet'], columns=table_headers)
