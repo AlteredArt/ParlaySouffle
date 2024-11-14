@@ -1,6 +1,6 @@
 def is_divisible(n,x,y):
     if n / x:
-        print("hello")
+        print(n)
     elif n / y:
         print("no")
 
